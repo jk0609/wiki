@@ -7,63 +7,174 @@
   </head>
 
   <body>
-    <div class='container-fluid row'>
-      <div class='col-md-1' id='sidebar'>
-      </div><!--sidebar col-->
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-md-2' id='sidebar'>
+          <img id='logo' src='img/logo.jpg'>
+          <ul>
+            <li><a href=#>Main Page</a></li>
+            <li><a href=#>Content</a></li>
+            <li><a href=#>Featured content</a></li>
+            <li><a href=#>Current events</a></li>
+            <li><a href=#>Random article</a></li>
+            <li><a href=#>Donate to Wikipedia</a></li>
+            <li><a href=#>Wikipedia store</a></li>
+          </ul><!--mainlist-->
+          <ul class='indent'>
+            <p>Interaction</p>
+            <li><a href=#>Help</a></li>
+            <li><a href=#>About Wikipedia</a></li>
+            <li><a href=#>Community portal</a></li>
+            <li><a href=#>Recent changes</a></li>
+            <li><a href=#>Contact page</a></li>
+          </ul><!--sublist 1-->
+          <ul class='indent'>
+            <p>Tools</p>
+            <li><a href=#>What links here</a></li>
+            <li><a href=#>Related changes</a></li>
+            <li><a href=#>Upload file</a></li>
+            <li><a href=#>Special pages</a></li>
+            <li><a href=#>Permanent link</a></li>
+            <li><a href=#>Page information</a></li>
+            <li><a href=#>Wikidate item</a></li>
+          </ul><!--sublist 2-->
+          <ul class='indent'>
+            <p>Print/export</p>
+            <li><a href=#>Create a book</a></li>
+            <li><a href=#>Download as PDF</a></li>
+            <li><a href=#>Printable version</a></li>
+          </ul><!--sublist 3-->
+          <ul class='indent'>
+            <p>Languages</p>
+            <li><a href=#>Simple English</a></li>
+            <li><a href=#>Bahassa Indonesia</a></li>
+            <li><a href=#>Deutsch</a></li>
+            <li><a href=#>Espanol</a></li>
+            <li><a href=#>Francais</a></li>
+            <li><a href=#>Dansk</a></li>
+            <li><a href=#>Italiano</a></li>
+            <li><a href=#>Magyar</a></li>
+            <li><a href=#>Nederlands</a></li>
+          </ul><!--sublist 4-->
+        </div><!--sidebar col-->
 
-      <div class='col-md-11' id='main'>
-        <div class='well' id='header'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+        <div class='col-md-10' id='main'>
+          <nav class="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li id='dudelist'><span class='glyphicon glyphicon-user dude'></span><p id='dudetext'>Not logged in</p></li>
+              <li><a href="#">Talk</a></li>
+              <li><a href="#">Contributions</a></li>
+              <li><a href="#">Create Account</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </nav>
 
-        <div class='container-fluid row'>
-          <div class='col-md-6' id='article'>
-            <div class='panel panel-default'>
-              <div class='panel-heading'>
-                <h3 class='panel-title'>From today's featured article</h3>
-              </div>
-              <div class='panel-body'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
+          <nav class="navbar navbar-default" id='mainNav'>
+            <div class='container-fluid'>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Main Page</a></li>
+                <li><a href="#">Talk</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Read</a></li>
+                <li><a href="#">View Source</a></li>
+                <li><a href="#">View History</a></li>
+                <form class="navbar-form navbar-right">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <span class="glyphicon glyphicon-search"></span>
+                </form>
+              </ul>
             </div>
-            <div class='panel panel-default'>
-              <div class='panel-heading'>
-                <h3 class='panel-title'>Did you know...</h3>
+          </nav>
+
+          <div class='container-fluid'>
+            <div class='well row' id='header'>
+              <div class='col-md-3' id='welcome'>
+                <h4>Welcome to <a href=#>Wikipedia</a>,</h4>
+                <p>The free encyclopedia that anyone can edit.<br> 5,000,000 articles in English</p>
               </div>
-              <div class='panel-body'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class='col-md-3'>
+              </div>
+              <div class='col-md-2'>
+                <ul>
+                  <li><a href=#>Arts</a></li>
+                  <li><a href=#>Biography</a></li>
+                  <li><a href=#>Geography</a></li>
+                </ul>
+              </div>
+              <div class='col-md-2'>
+                <ul>
+                  <li><a href=#>History</a></li>
+                  <li><a href=#>Mathematics</a></li>
+                  <li><a href=#>Science</a></li>
+                </ul>
+              </div>
+              <div class='col-md-2'>
+                <ul>
+                  <li><a href=#>Society</a></li>
+                  <li><a href=#>Technology</a></li>
+                  <li><a href=#><b>All portals</b></a></li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class='col-md-6' id='news'>
-            <div class='panel panel-default'>
-              <div class='panel-heading'>
-                <h3 class='panel-title'>In the news</h3>
-              </div><!--news panel head 1-->
-              <div class='panel-body'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div><!-- news panel body 1-->
-            </div><!--news panel 1-->
-            <div class='panel panel-default'>
-              <div class='panel-heading'>
-                <h3 class='panel-title'>On this day...</h3>
-              </div><!--news panel head 2-->
-              <div class='panel-body'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div><!--news panel body 2-->
-            </div><!--news panel 2-->
-          </div>
-        </div>
 
-        <div id='featurelist' class='panel panel-default'>
-          <div class='panel-heading'>
-            <h3 class='panel-title'>From today's featured list</h3>
-          </div><!--feat panel head-->
-          <div class='panel-body'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div><!--feat panel body-->
-        </div><!--feature panel-->
-      </div><!--main column-->
-    </div><!--big row-->
+          <div class='row'>
+            <div class='col-md-6 content' id='article'>
+              <div class='panel panel-default'>
+                <div class='panel-heading'>
+                  <h3 class='panel-title'>From today's featured article</h3>
+                </div>
+                <div class='panel-body'>
+                  <img src="img/bird.jpg" class='pic left'>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+              <div class='panel panel-default'>
+                <div class='panel-heading'>
+                  <h3 class='panel-title'>Did you know...</h3>
+                </div>
+                <div class='panel-body'>
+                  <img src='img/reactor.jpg' class='pic left'>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+            <div class='col-md-6 content' id='news'>
+              <div class='panel panel-default'>
+                <div class='panel-heading'>
+                  <h3 class='panel-title'>In the news</h3>
+                </div><!--news panel head 1-->
+                <div class='panel-body'>
+                  <img src='img/miller.jpg' class='pic right'>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div><!-- news panel body 1-->
+              </div><!--news panel 1-->
+              <div class='panel panel-default'>
+                <div class='panel-heading'>
+                  <h3 class='panel-title'>On this day...</h3>
+                </div><!--news panel head 2-->
+                <div class='panel-body'>
+                  <img src='img/puyi.jpg' class='pic right'>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div><!--news panel body 2-->
+              </div><!--news panel 2-->
+            </div>
+          </div>
+
+          <div id='featurelist' class='panel panel-default'>
+            <div class='panel-heading'>
+              <h3 class='panel-title'>From today's featured list</h3>
+            </div><!--feat panel head-->
+            <div class='panel-body'>
+              <img src='img/ghez.jpg' class='pic right'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div><!--feat panel body-->
+          </div><!--feature panel-->
+        </div><!--main column-->
+      </div><!--big row-->
+    </div><!--container-->
   </body>
 </html>

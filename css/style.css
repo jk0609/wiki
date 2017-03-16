@@ -1,0 +1,84 @@
+.dude {
+  margin-top: 17px;
+}
+#dudetext{
+  display: inline-block;
+  margin-left: 8px;
+}
+#dudelist{
+  width: 150px;
+  text-align: center;
+}
+
+#mainNav{
+  margin-top: -18px;
+}
+
+#logo{
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+#welcome{
+  text-align: center;
+}
+#welcome p{
+  margin: -2px;
+  margin-bottom: -7px;
+}
+#welcome h4{
+  margin-top:-5px;
+}
+
+#sidebar{
+  background-color: #f5f5f5;
+}
+#sidebar ul{
+  padding: 0;
+  list-style: none;
+}
+
+ul p {
+  color: grey;
+}
+
+.indent li {
+  padding-left: 5px;
+}
+
+.pic {
+  width: 120px;
+  margin-right: 8px;
+  margin-bottom: -8px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.content .panel{
+  height: 250px;
+}
+
+#news .panel{
+  background-color: #f5faff;
+}
+#news .panel-heading{
+  background-color: #cedff2;
+}
+#article .panel{
+  background-color: #f5fffa;
+}
+#article .panel-heading{
+  background-color: #cef2e0;
+}
+#featurelist {
+  background-color: #faf5ff;
+}
+#featurelist .panel-heading{
+  background-color: #ddcef2;
+}
