@@ -1,4 +1,4 @@
-#Mock Wikipedia Front Page
+# Mock Wikipedia Front Page
 
 #### HTML, CSS and Bootstrap practice for class. 3/15/17
 
